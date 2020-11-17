@@ -9,9 +9,9 @@ class AddData extends Component
         super(props);
 
         this.state = {
-            firstname: "Wayan",
-            lastname: "Styawan",
-            username: "styawansaputra"
+            firstname: "",
+            lastname: "",
+            username: ""
         };
 
         this.simpanData = this.simpanData.bind(this);
