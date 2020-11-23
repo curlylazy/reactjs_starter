@@ -10,6 +10,7 @@ import CNavBar from "./components/cnavbar";
 
 // pages
 import ListData from "./pages/listdata";
+import LisJsonOnlinetData from "./pages/listjsononlinedata";
 import AddData from "./pages/adddata";
 import EditData from "./pages/editdata";
 
@@ -30,6 +31,7 @@ function App() {
                         <Redirect to="/list" />
                     </Route>
 
+                    <Route path="/listonline" component={LisJsonOnlinetData} />
                     <Route path="/list" component={ListData} />
                     <Route path="/add" component={AddData} />
                     <Route path="/edit/:id" component={EditData} />

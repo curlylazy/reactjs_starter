@@ -12,6 +12,7 @@ class CNavBar extends Component {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/listonline">List JSON Online</Nav.Link>
                 <Nav.Link href="/list">Data User</Nav.Link>
                 <Nav.Link href="/add">Tambah User</Nav.Link>
                 </Nav>
